@@ -5,7 +5,13 @@ from nltk.corpus import stopwords
 from nltk.sentiment import SentimentIntensityAnalyzer
 from string import punctuation
 
-nltk.download('vader_lexicon')
+# If it's the first time you're running this code, you'll need to download the 'vader_lexicon', 'stopwords' and
+# 'en_core_web_sm', so uncomment the following lines:
+# nltk.download('popular')
+# nltk.download('vader_lexicon')
+# nltk.download('stopwords')
+# spacy.cli.download("en_core_web_sm")
+
 nlp = spacy.load("en_core_web_sm")
 stop_words = set(stopwords.words('english') + list(punctuation))
 
