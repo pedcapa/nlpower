@@ -89,9 +89,9 @@ curl -X 'POST' \
 ```
 **Response**
 ```json
-    {
-      "result": "FastAPI is a great tool."
-    }
+{
+   "result": "FastAPI is a great tool."
+}
 ```
 
 ## Contribution
