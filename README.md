@@ -87,7 +87,7 @@ curl -X 'POST' \
   -H 'Content-Type: application/json' \
   -d '{"text": "FastAPI is a great tool. It helps you build APIs really fast."}'
 ```
-    **Response**
+**Response**
 ```json
     {
       "result": "FastAPI is a great tool."
